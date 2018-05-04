@@ -16,5 +16,5 @@ for (let i = 0; i < IMAGES.length; i++) {
   let imgSrc = IMAGES[i].getAttribute('src').slice(0, -8);
   let srcset = generateSrcset(imgSrc);
 
-  IMAGES[i].setAttribute('srcset', srcset); 
+  IMAGES[i].setAttribute('srcset', srcset);
 }
